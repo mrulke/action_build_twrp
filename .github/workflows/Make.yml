@@ -23,6 +23,8 @@ jobs:
         sudo apt -y autoclean
         sudo apt clean
         sudo apt update
+        sudo add-apt-repository ppa:openjdk-r/ppa
+        sudo apt-get update
       
     - name: Install packages
       run: |
