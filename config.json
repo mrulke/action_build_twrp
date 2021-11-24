@@ -4,7 +4,7 @@
   "git_username": "voipsy",
   "git_email": "37921907+voipsy@users.noreply.github.com",
   "use_own_dt": true,
-  "dt_url": "qianmo-xw/device_tree_Glocalme G2",
+  "dt_url": "qianmo-xw/device_tree_GlocalmeG2",
   "dt_branch": "master",
   "dt_remote": "github",
   "dt_path": "device/uCloudlink/Glocalme G2",
