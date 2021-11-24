@@ -7,12 +7,12 @@
   "dt_url": "qianmo-xw/device_tree_GlocalmeG2",
   "dt_branch": "master",
   "dt_remote": "github",
-  "dt_path": "device/ucloudlink/Glocalme G2",
+  "dt_path": "device/uCloudlink/Glocalme G2",
   "device_code": "Glocalme G2",
   "use_omin_head": true,
   "use_repair_manifest": false,
   "fix_product": false,
   "fix_misscom": false,
   "fix_busybox": false,
-  "fix_branch": "android-4.4"
+  "fix_branch": "android-10.0"
 }
