@@ -1,18 +1,18 @@
 {
   "twrp_url": "git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git",
-  "twrp_branch": "twrp-4.4-deprecated",
+  "twrp_branch": "twrp-9.0",
   "git_username": "xiaowei",
   "git_email": "1084781330@qq.com",
   "use_own_dt": true,
-  "dt_url": "qianmo-xw/android_device_tree_GlocalmeG2",
-  "dt_branch": "master",
+  "dt_url": "qianmo-xw/twrp_device_blackshark_penrose",
+  "dt_branch": "main",
   "dt_remote": "github",
-  "dt_path": "device/ucloudlink/GlocalmeG2",
-  "device_code": "GlocalmeG2",
+  "dt_path": "device/blackshark/penrose",
+  "device_code": "penrose",
   "use_omin_head": true,
   "use_repair_manifest": false,
   "fix_product": false,
   "fix_misscom": false,
   "fix_busybox": false,
-  "fix_branch": "android-9.0"
+  "fix_branch": "android-11.0"
 }
