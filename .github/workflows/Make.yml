@@ -55,9 +55,10 @@ jobs:
     - name: Install Repo
       run: |
         mkdir ~/bin
-        curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-        chmod a+x ~/bin/repo
-        export PATH=~/bin:$PATH
+        export REPO=$(mktemp /tmp/repo.XXXXXXXXX)
+        curl -o ${REPO} https://storage.googleapis.com/git-repo-downloads/repo
+        gpg --recv-key 8BB9AD793E8E6153AF0F9A4416530D5E920F5C65
+        curl -s https://storage.googleapis.com/git-repo-downloads/repo.asc | gpg --verify - ${REPO} && install -m 755 ${REPO} ~/bin/repo
         
     - name: Initialize Repair Manifest
       if: steps.var.outputs.use_repair_manifest == 'true'
@@ -140,4 +141,4 @@ jobs:
         tag_name: ${{ github.run_id }}
         body: TWRP Recovery built by ${{ steps.var.outputs.git_username }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
