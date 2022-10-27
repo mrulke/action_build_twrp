@@ -1,5 +1,5 @@
 {
-  "twrp_url": "git@github.com:minimal-manifest-twrp/platform_manifest_twrp_omni.git",
+  "twrp_url": "git@github.com:mrulke/platform_manifest_twrp_omni.git",
   "twrp_branch": "twrp-9.0",
   "git_username": "mrulke",
   "git_email": "simon@v6gemini.com",
