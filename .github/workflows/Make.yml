@@ -54,6 +54,7 @@ jobs:
       
     - name: Install Repo
       run: |
+        dirmngr
         mkdir ~/bin
         export REPO=$(mktemp /tmp/repo.XXXXXXXXX)
         curl -o ${REPO} https://storage.googleapis.com/git-repo-downloads/repo
