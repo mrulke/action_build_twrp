@@ -1,10 +1,10 @@
 {
   "twrp_url": "git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git",
   "twrp_branch": "twrp-9.0",
-  "git_username": "mrrulke",
+  "git_username": "mrulke",
   "git_email": "simono@v6gemini.com",
   "use_own_dt": true,
-  "dt_url": "qianmo-xw/twrp_device_blackshark_penrose",
+  "dt_url": "mrulke/twrp_device_blackshark_penrose",
   "dt_branch": "main",
   "dt_remote": "github",
   "dt_path": "device/blackshark/penrose",
