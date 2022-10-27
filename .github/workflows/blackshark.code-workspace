@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../twrp_device_blackshark_penrose"
+		},
+		{
+			"name": "action_build_twrp",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"github-actions.workflows.pinned.workflows": [
+			"action_build_twrp/.github/workflows/Make.yml"
+		]
+	}
+}
