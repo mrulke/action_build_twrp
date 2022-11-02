@@ -6,6 +6,13 @@
 		{
 			"name": "action_build_twrp",
 			"path": "../.."
+		},
+		{
+			"name": "platform_manifest_twrp_omni",
+			"path": "../../../platform_manifest_twrp_omni"
+		},
+		{
+			"path": "../../../workspace"
 		}
 	],
 	"settings": {
